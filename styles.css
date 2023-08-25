@@ -6,9 +6,34 @@ body {
     width: 100vw;
     height: 100vh;
 }
+
+.calculator {
+    border: 1px gray solid;
+    background-color: #82b3cf;
+    border: 2px gray solid;
+}
+
 .display {
     display: flex;
-    height: 10px;
+    align-items: center;
+    height: 2em;
     width: auto;
-    border: 1px black solid;
+    border: 1px gray solid;
+    margin: 2px 2px;
+    padding: 0px 4px;
+    background-color: whitesmoke;
+}
+
+button {
+    height: 2em;
+    width: 2em;
+    margin: 2px 2px; 
+}
+
+.operator,
+.equal {
+    background-color: rgb(156, 156, 156);
+}
+.clear {
+    background-color: rgb(57, 57, 150);
 }

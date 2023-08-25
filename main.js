@@ -1,3 +1,6 @@
+var firstNumber, secondNumber, operator, displayValue;
+
+
 function add(a, b) {
     return a + b; 
 }
@@ -14,7 +17,6 @@ function divide(a, b) {
     return a / b; 
 }
 
-var firstNumber, secondNumber, operator;
 
 function operate(firstNumber, operator, secondNumber) {
     switch (operator) {
@@ -32,14 +34,32 @@ function operate(firstNumber, operator, secondNumber) {
             break;
     }
 }
+function getButtonText(button) {
+    var buttonText = button.textContent;
+    return buttonText;
+}
 
-
-document.addEventListener("click", (e) =>  {
+function displayNumButton(e) {
     if (e.target.classList.contains("number")) {
         var display = document.querySelector(".display");
-        display.innerHTML += "test";
+        displayValue = display.innerHTML += getButtonText(e.target);
     }
-});
+
+}
 
 
-console.log(divide(12,3));
+function operateButton(e) {
+    if (e.target.classList.contains("operator")) { 
+        firstNumber = displayValue;    
+        var display = document.querySelector(".display");
+        display.textContent = "";
+       
+        
+    }
+}
+
+document.addEventListener("click", displayNumButton);
+document.addEventListener("click", operateButton);
+
+
+console.log(firstNumber);
