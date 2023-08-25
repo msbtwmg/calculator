@@ -6,3 +6,9 @@ body {
     width: 100vw;
     height: 100vh;
 }
+.display {
+    display: flex;
+    height: 10px;
+    width: auto;
+    border: 1px black solid;
+}
