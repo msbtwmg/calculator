@@ -40,6 +40,7 @@ function operate(a, op, b) {
 
 function updateDisplay() {
     display.textContent = displayValue;
+
 }
 
 function clearCalculator() {

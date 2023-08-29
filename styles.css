@@ -25,6 +25,7 @@ body {
     border: 2px gray solid;
     border-radius: 10px;
     height: 180px;
+    padding: 5px;
 }
 
 .display {
@@ -44,6 +45,8 @@ button {
     width: 2em;
     margin: 2px 2px; 
     border-radius: 10px;
+    font-family: Calculative, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 .operator,
