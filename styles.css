@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Calculative";
+    src: url("Calculative.ttf");
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -5,29 +10,40 @@ body {
     flex-direction: column;
     width: 100vw;
     height: 100vh;
+    background: rgb(57, 57, 150);
+}
+
+.title {
+    font-family: Calculative, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+
 }
 
 .calculator {
     border: 1px gray solid;
     background-color: #82b3cf;
     border: 2px gray solid;
+    border-radius: 10px;
+    height: 180px;
 }
 
 .display {
     display: flex;
     align-items: center;
-    height: 2em;
+    height: 3em;
     width: auto;
     border: 1px gray solid;
     margin: 2px 2px;
     padding: 0px 4px;
     background-color: whitesmoke;
+    border-radius: 10px;
 }
 
 button {
     height: 2em;
     width: 2em;
     margin: 2px 2px; 
+    border-radius: 10px;
 }
 
 .operator,
