@@ -1,4 +1,5 @@
-![preview](calc-preview)
+<img src="calc-preview.png" alt="preview" width="200">
+
 # Calculator
 An on-screen calculator using JavaScript, HTML, and CSS.
 
