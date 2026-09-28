@@ -1,5 +1,6 @@
+![preview](calc-preview)
 # Calculator
 An on-screen calculator using JavaScript, HTML, and CSS.
 
-## Live Preview
+## Try it out 
 https://msbtwmg.github.io/calculator/
